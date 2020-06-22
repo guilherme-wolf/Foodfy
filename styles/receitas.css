@@ -131,3 +131,26 @@ border-radius: 15px;
      opacity: 1;
      visibility: visible;
 }
+
+.modal-content img { 
+    width: 600px;
+    height: 200px;
+    padding: 0 30px;
+    border-radius: 30px;
+
+}
+
+.modal-content h3 {
+padding-top: 20px;
+font-family: Roboto, sans-serif;
+font-size: 24px;
+color: #111111;
+text-align: center;
+}
+
+.modal-content p {
+font-family: Roboto, sans-serif;
+font-size: 18px;
+color: #777777;
+text-align: center;
+}
