@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    border: 0; 
+    padding: 0;
+}
+
+body {
+    background-color: rgba(223, 223, 223, 0.164);
+    font-family: Roboto, sans-serif;
+}
+
+html , body {
+    height: 100vh;
+    position: relative; 
+    overflow-x: hidden;
+}
+
+#page-sobre .content {
+  min-height:100vh ;
+  position: relative;
+  padding-bottom: 62px;
+  overflow: hidden;
+
+}
+
+#page-sobre header img {
+    position: relative;
+    top: 37px;
+    left: 231px;
+}
+
+#page-sobre header a {
+   position: relative;
+   left: 400px;
+   top: 33px;
+   padding-left: 30px;
+   text-decoration: none;
+    color: #111111;
+    font-size: 16px;
+}
+
+#page-sobre header a:hover {
+    color: #FBDFDB;
+    transition: 400ms;
+}
+
+
+/*==============Text=======================*/
+main h2 {
+    max-width: 100%;
+    width: 250px;
+}
+
+
+main .sobre  h2{
+  
+margin: 70px auto 20px 231px;
+}
+
+main .sobre p { 
+    width: 100% ;
+    max-width: 940px;
+    margin: 0 auto 30px 231px;
+
+}
+
+main .o-comeco  h2{
+  
+    margin: 30px auto 20px 231px;
+    }
+    
+main .o-comeco p { 
+    width: 100% ;
+    max-width: 940px;
+    margin: 0 auto 30px 231px;
+    
+}
+main .receitas  h2{
+  
+    margin: 30px auto 20px 231px;
+    }
+    
+main .receitas p { 
+    width: 100% ;
+    max-width: 940px;
+    margin: 0 auto 30px 231px;
+    
+}
+
+
+
+
+/*=========FOOTER=============*/
+.footer {
+    max-width: 100%;
+    width: 1400px;
+    height: 62px;
+    background-color: #EEEEEE;
+    position: relative;
+    top: 62px;
+    margin-top: 50px;
+}
+
+.footer p {
+    font-size: 14px;
+    text-align: center;
+    padding: 23px;
+    color:  #999999;
+}

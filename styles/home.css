@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    border: 0; 
+    padding: 0;
+}
+
+body {
+    background-color: rgba(223, 223, 223, 0.164);
+    font-family: Roboto, sans-serif;
+}
+
+html , body {
+    height: 100vh;
+    position: relative; 
+    overflow-x: hidden;
+}
+
+#page-home .content {
+  min-height:100vh ;
+  position: relative;
+  padding-bottom: 62px;
+  overflow: hidden;
+
+}
+
+#page-home header img {
+    position: relative;
+    top: 37px;
+    left: 231px;
+}
+
+#page-home header a {
+   position: relative;
+   left: 400px;
+   top: 33px;
+   padding-left: 30px;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    width: 100%;
+    margin: 0 231px;
+    overflow-x: hidden;
+    position: relative;
+    top: 60px;
+    background-color: #fbdfdb;
+    border-radius: 30px;
+
+   
+}
+.container h1 {
+    position: relative;
+    top: 137px;
+    left: 60px;
+    max-width: 350px;
+    height: 38px;
+    font-size: 32px;
+}
+
+.container p { 
+    position: relative;
+    top: 147px;
+    left: 60px;
+    width: 316px;  
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.7;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    columns: #000000;
+    line-height: 28px;
+
+}
+.container img {
+    position: relative;
+    right: 100px;
+    bottom: 48px;
+    float: right;
+}
+
+
+
+
+#page-home header a {
+    text-decoration: none;
+    color: #111111;
+    font-size: 16px;
+
+}
+#page-home header a:hover {
+    color: #FBDFDB;
+    transition: 400ms;
+}
+
+
+/*=========GRID================*/
+
+.title-grid h2 {
+    position: relative;
+    top: 90px;
+    margin: 0 231px;
+    font-family: Roboto, sans-serif;
+    max-width: 200px;
+    height: 28px;
+    font-size: 24px;
+}
+
+.cards {
+display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ position: relative;
+ gap: 20px;
+ top: 85px;
+ padding: 20px;
+ margin: 0 219px;
+
+}
+
+.card img {
+width: 300px;
+max-height: 140px;
+border-radius: 15px;
+
+}
+
+/*=========FOOTER=============*/
+.footer {
+    max-width: 100%;
+    width: 1400px;
+    height: 62px;
+    background-color: #EEEEEE;
+    position: relative;
+    top: 62px;
+    margin-top: 50px;
+}
+
+.footer p {
+    font-size: 14px;
+    text-align: center;
+    padding: 23px;
+    color:  #999999;
+}
+
